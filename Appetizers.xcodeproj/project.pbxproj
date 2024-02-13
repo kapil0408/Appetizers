@@ -17,6 +17,7 @@
 		82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C02B7B513300F0ADC4 /* AppetizersView.swift */; };
 		82CAC3C32B7B514400F0ADC4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C22B7B514400F0ADC4 /* AccountView.swift */; };
 		82CAC3C52B7B515E00F0ADC4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C42B7B515E00F0ADC4 /* OrderView.swift */; };
+		82CAC3C82B7B5A2700F0ADC4 /* Appetizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C72B7B5A2700F0ADC4 /* Appetizers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		82CAC3C02B7B513300F0ADC4 /* AppetizersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersView.swift; sourceTree = "<group>"; };
 		82CAC3C22B7B514400F0ADC4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		82CAC3C42B7B515E00F0ADC4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		82CAC3C72B7B5A2700F0ADC4 /* Appetizers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		822220942B62775300CD2F66 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				82CAC3C62B7B5A1400F0ADC4 /* Model */,
 				822220952B62775300CD2F66 /* AppetizersApp.swift */,
 				822220972B62775300CD2F66 /* AppetizersTabView.swift */,
 				822220992B62775500CD2F66 /* Assets.xcassets */,
@@ -134,6 +137,14 @@
 				822220B22B62775600CD2F66 /* AppetizersUITestsLaunchTests.swift */,
 			);
 			path = AppetizersUITests;
+			sourceTree = "<group>";
+		};
+		82CAC3C62B7B5A1400F0ADC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82CAC3C72B7B5A2700F0ADC4 /* Appetizers.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */,
 				822220982B62775300CD2F66 /* AppetizersTabView.swift in Sources */,
 				822220962B62775300CD2F66 /* AppetizersApp.swift in Sources */,
+				82CAC3C82B7B5A2700F0ADC4 /* Appetizers.swift in Sources */,
 				82CAC3C52B7B515E00F0ADC4 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
