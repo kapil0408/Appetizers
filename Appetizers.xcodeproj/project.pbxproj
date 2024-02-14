@@ -21,6 +21,7 @@
 		82CAC3CA2B7B6A6300F0ADC4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C92B7B6A6300F0ADC4 /* NetworkManager.swift */; };
 		82CAC3CC2B7B6ACA00F0ADC4 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3CB2B7B6ACA00F0ADC4 /* AppetizerListCell.swift */; };
 		82CAC3CE2B7B6D1A00F0ADC4 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3CD2B7B6D1A00F0ADC4 /* APError.swift */; };
+		82CAC3D02B7C97DB00F0ADC4 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3CF2B7C97DB00F0ADC4 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		82CAC3C92B7B6A6300F0ADC4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		82CAC3CB2B7B6ACA00F0ADC4 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		82CAC3CD2B7B6D1A00F0ADC4 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		82CAC3CF2B7C97DB00F0ADC4 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				82CAC3C92B7B6A6300F0ADC4 /* NetworkManager.swift */,
 				82CAC3CB2B7B6ACA00F0ADC4 /* AppetizerListCell.swift */,
 				82CAC3CD2B7B6D1A00F0ADC4 /* APError.swift */,
+				82CAC3CF2B7C97DB00F0ADC4 /* AppetizerListViewModel.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				82CAC3C32B7B514400F0ADC4 /* AccountView.swift in Sources */,
 				82CAC3CE2B7B6D1A00F0ADC4 /* APError.swift in Sources */,
 				82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */,
+				82CAC3D02B7C97DB00F0ADC4 /* AppetizerListViewModel.swift in Sources */,
 				822220982B62775300CD2F66 /* AppetizersTabView.swift in Sources */,
 				82CAC3CA2B7B6A6300F0ADC4 /* NetworkManager.swift in Sources */,
 				822220962B62775300CD2F66 /* AppetizersApp.swift in Sources */,
