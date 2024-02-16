@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 final class NetworkManager {
     static let shared = NetworkManager()
@@ -45,5 +46,9 @@ final class NetworkManager {
             }
         }
         task.resume()
+    }
+    
+    func downloadImage(fromURLString: String, completed: @escaping(UIImage?) -> Void) {
+        
     }
 }
