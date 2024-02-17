@@ -118,11 +118,11 @@
 		822220942B62775300CD2F66 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				82CAC3E22B807F1000F0ADC4 /* Views */,
 				822220952B62775300CD2F66 /* AppetizersApp.swift */,
-				82CAC3DD2B807E2300F0ADC4 /* Utilities */,
-				82CAC3E12B807E7900F0ADC4 /* Screens */,
 				82CAC3C62B7B5A1400F0ADC4 /* Model */,
+				82CAC3E12B807E7900F0ADC4 /* Screens */,
+				82CAC3E22B807F1000F0ADC4 /* Views */,
+				82CAC3DD2B807E2300F0ADC4 /* Utilities */,
 				822220992B62775500CD2F66 /* Assets.xcassets */,
 				8222209B2B62775500CD2F66 /* Preview Content */,
 			);
