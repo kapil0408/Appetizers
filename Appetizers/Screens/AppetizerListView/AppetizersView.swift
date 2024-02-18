@@ -25,7 +25,7 @@ struct AppetizersView: View {
             .onAppear{
                 viewModel.getAppetizers()
             }
-            
+            .blur(radius: isShowingDetail ? 20:0)
             if isShowingDetail {
                 AppetizersDetailView(appetizer: MockData.sampleAppetizer, isShowingDetail: $isShowingDetail)
             }
