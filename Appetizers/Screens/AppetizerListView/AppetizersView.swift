@@ -27,7 +27,7 @@ struct AppetizersView: View {
             }
             
             if isShowingDetail {
-                AppetizersDetailView(appetizer: MockData.sampleAppetizer)
+                AppetizersDetailView(appetizer: MockData.sampleAppetizer, isShowingDetail: $isShowingDetail)
             }
             
             if(viewModel.isLoading){
