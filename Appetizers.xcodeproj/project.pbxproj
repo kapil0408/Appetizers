@@ -14,6 +14,8 @@
 		822220A72B62775600CD2F66 /* AppetizersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822220A62B62775600CD2F66 /* AppetizersTests.swift */; };
 		822220B12B62775600CD2F66 /* AppetizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822220B02B62775600CD2F66 /* AppetizersUITests.swift */; };
 		822220B32B62775600CD2F66 /* AppetizersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822220B22B62775600CD2F66 /* AppetizersUITestsLaunchTests.swift */; };
+		82A107C12B8372BB00EAA91A /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A107C02B8372BB00EAA91A /* APButton.swift */; };
+		82A107C32B8373BF00EAA91A /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A107C22B8373BF00EAA91A /* XDismissButton.swift */; };
 		82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C02B7B513300F0ADC4 /* AppetizersView.swift */; };
 		82CAC3C32B7B514400F0ADC4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C22B7B514400F0ADC4 /* AccountView.swift */; };
 		82CAC3C52B7B515E00F0ADC4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC3C42B7B515E00F0ADC4 /* OrderView.swift */; };
@@ -57,6 +59,8 @@
 		822220AC2B62775600CD2F66 /* AppetizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822220B02B62775600CD2F66 /* AppetizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITests.swift; sourceTree = "<group>"; };
 		822220B22B62775600CD2F66 /* AppetizersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82A107C02B8372BB00EAA91A /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		82A107C22B8373BF00EAA91A /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		82CAC3C02B7B513300F0ADC4 /* AppetizersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersView.swift; sourceTree = "<group>"; };
 		82CAC3C22B7B514400F0ADC4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		82CAC3C42B7B515E00F0ADC4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
@@ -156,6 +160,15 @@
 			path = AppetizersUITests;
 			sourceTree = "<group>";
 		};
+		82A107BF2B8372A200EAA91A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				82A107C02B8372BB00EAA91A /* APButton.swift */,
+				82A107C22B8373BF00EAA91A /* XDismissButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		82CAC3C62B7B5A1400F0ADC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +252,7 @@
 		82CAC3E22B807F1000F0ADC4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				82A107BF2B8372A200EAA91A /* Button */,
 				82CAC3E52B807F6400F0ADC4 /* UIKit Components */,
 				82CAC3E42B807F5E00F0ADC4 /* Cells */,
 				82CAC3E32B807F5700F0ADC4 /* Image */,
@@ -402,10 +416,12 @@
 			files = (
 				82CAC3C32B7B514400F0ADC4 /* AccountView.swift in Sources */,
 				82CAC3CE2B7B6D1A00F0ADC4 /* APError.swift in Sources */,
+				82A107C32B8373BF00EAA91A /* XDismissButton.swift in Sources */,
 				82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */,
 				82CAC3D02B7C97DB00F0ADC4 /* AppetizerListViewModel.swift in Sources */,
 				82CAC3D62B7CD41600F0ADC4 /* Color+Ext.swift in Sources */,
 				822220982B62775300CD2F66 /* AppetizersTabView.swift in Sources */,
+				82A107C12B8372BB00EAA91A /* APButton.swift in Sources */,
 				82CAC3D42B7CD32900F0ADC4 /* LoadingView.swift in Sources */,
 				82CAC3CA2B7B6A6300F0ADC4 /* NetworkManager.swift in Sources */,
 				822220962B62775300CD2F66 /* AppetizersApp.swift in Sources */,
