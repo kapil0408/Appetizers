@@ -13,8 +13,7 @@ struct AppetizersDetailView: View {
     
     var body: some View {
         VStack{
-            Image("paneer")
-                .resizable()
+            AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 300, height: 225)
             
