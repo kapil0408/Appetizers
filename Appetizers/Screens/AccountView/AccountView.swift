@@ -33,6 +33,7 @@ struct AccountView: View {
                     
                     Button {
                         print("Save")
+                        viewModel.saveChanges()
                     } label: {
                         Text("Save Changes")
                     }
