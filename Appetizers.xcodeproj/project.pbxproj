@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8207BA9D2B84831700D39A4E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207BA9C2B84831700D39A4E /* AccountViewModel.swift */; };
+		8207BA9F2B8484BE00D39A4E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207BA9E2B8484BE00D39A4E /* String+Ext.swift */; };
 		822220962B62775300CD2F66 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822220952B62775300CD2F66 /* AppetizersApp.swift */; };
 		822220982B62775300CD2F66 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822220972B62775300CD2F66 /* AppetizersTabView.swift */; };
 		8222209A2B62775500CD2F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822220992B62775500CD2F66 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8207BA9C2B84831700D39A4E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		8207BA9E2B8484BE00D39A4E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		822220922B62775300CD2F66 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		822220952B62775300CD2F66 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		822220972B62775300CD2F66 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
@@ -191,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				82CAC3C22B7B514400F0ADC4 /* AccountView.swift */,
+				8207BA9C2B84831700D39A4E /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				82CAC3D52B7CD41600F0ADC4 /* Color+Ext.swift */,
+				8207BA9E2B8484BE00D39A4E /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -418,6 +424,8 @@
 				82CAC3CE2B7B6D1A00F0ADC4 /* APError.swift in Sources */,
 				82A107C32B8373BF00EAA91A /* XDismissButton.swift in Sources */,
 				82CAC3C12B7B513300F0ADC4 /* AppetizersView.swift in Sources */,
+				8207BA9F2B8484BE00D39A4E /* String+Ext.swift in Sources */,
+				8207BA9D2B84831700D39A4E /* AccountViewModel.swift in Sources */,
 				82CAC3D02B7C97DB00F0ADC4 /* AppetizerListViewModel.swift in Sources */,
 				82CAC3D62B7CD41600F0ADC4 /* Color+Ext.swift in Sources */,
 				822220982B62775300CD2F66 /* AppetizersTabView.swift in Sources */,
