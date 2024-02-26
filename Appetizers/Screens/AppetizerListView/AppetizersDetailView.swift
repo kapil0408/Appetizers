@@ -13,7 +13,7 @@ struct AppetizersDetailView: View {
     let appetizer: Appetizer
     @Binding var isShowingDetail: Bool
     
-    var body: some View {
+    var body: some View {   
         VStack{
             AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
@@ -39,7 +39,8 @@ struct AppetizersDetailView: View {
             
             Button {
                 print("tapped")
-                order.item.append(appetizer)
+                order.add(appetizer)
+                isShowingDetail = false
             } label: {
                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
