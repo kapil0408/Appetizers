@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct User: Codable {
     
@@ -15,5 +16,4 @@ struct User: Codable {
     var birthDate = Date()
     var extranapkins: Bool = false
     var frequentRefills: Bool = false
-    var alertItem: AlertItem?
 }
