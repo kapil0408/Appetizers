@@ -38,8 +38,6 @@ struct OrderView: View {
             .navigationTitle("Orders")
         }
     }
-    
-   
 }
 
 struct OrderView_Previews: PreviewProvider {
