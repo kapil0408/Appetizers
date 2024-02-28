@@ -15,7 +15,6 @@ struct EmptyState: View {
         ZStack{
             Color(.systemBackground)
                 .ignoresSafeArea()
-            
             VStack{
                 Image(imageName)
                     .resizable()
